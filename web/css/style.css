@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 22px;
   outline: none;
 }
 
@@ -490,8 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: #28A745;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -604,8 +603,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #28A745;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -698,19 +696,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  border: 5px dashed #AF0042;
   background-size: cover;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 #call-to-action .cta-title {
-  color: #fff;
+  color: #AF0042;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #fff;
+  color: #AF0042;
+}
+
+#call-to-action p {
+  margin: 0;
 }
 
 @media (min-width: 769px) {
@@ -846,7 +848,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: #28A745;
   font-weight: 300;
 }
 
@@ -856,7 +858,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing h4 span {
-  color: #bababa;
+  color: #444444;
   font-size: 20px;
 }
 
@@ -873,7 +875,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: #28A745;
   font-size: 18px;
   padding-right: 4px;
 }
