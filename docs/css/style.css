@@ -504,6 +504,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #eff5f5;
 }
 
+/* notice
+--------------------------------*/
+.notice {
+  background: #27A243;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.notice .title {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.notice .text {
+  color: #FFFFFF;
+}
+
+.notice p {
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .notice .action-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.notice .action-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.notice .cta-btn:hover {
+  background: #1dc8cd;
+  border: 2px solid #1dc8cd;
+}
+
 /* About Us Section
 --------------------------------*/
 #about {
